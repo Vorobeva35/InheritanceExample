@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="B1" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgAAAAAAAAAAA=</HashCode>
+      <FileName>Task1.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B2" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Task1.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D1" Collapsed="true">
+    <Position X="2" Y="2" Width="1.5" />
+    <InheritanceLine Type="B1">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.12" Y="0.393" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="B2" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.875" Y="1.062" />
+        <Point X="5.875" Y="1.437" />
+        <Point X="3.875" Y="1.437" />
+        <Point X="3.875" Y="1.79" />
+        <Point X="3.188" Y="1.79" />
+        <Point X="3.188" Y="2" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-2.252" Y="0.598" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAACIAAAAAAAAAAA=</HashCode>
+      <FileName>Task1.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D2" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <InheritanceLine Type="B1" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.125" Y="1.062" />
+        <Point X="3.125" Y="1.635" />
+        <Point X="3.792" Y="1.635" Type="JumpStart" />
+        <Point X="3.958" Y="1.635" Type="JumpEnd" />
+        <Point X="5.875" Y="1.635" />
+        <Point X="5.875" Y="2" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.391" Y="0.128" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="B2" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="6.25" Y="1.062" />
+        <Point X="6.25" Y="2" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.911" Y="0.279" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAQAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Task1.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D3" Collapsed="true">
+    <Position X="3.75" Y="3" Width="1.5" />
+    <InheritanceLine Type="D1" FixedToPoint="true">
+      <Path>
+        <Point X="2.75" Y="2.82" />
+        <Point X="2.75" Y="3.438" />
+        <Point X="3.75" Y="3.438" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.153" Y="0.066" Height="0.182" Width="0.786" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="D2" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="2.82" />
+        <Point X="6.25" Y="3.438" />
+        <Point X="5.25" Y="3.438" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.319" Y="0.096" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Task1.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
